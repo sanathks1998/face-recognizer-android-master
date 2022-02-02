@@ -1,8 +1,8 @@
-# Realtime Face Recognizer
+Disaster Management application can be used as a user guide to know about natural disasters, disaster management life cycle, emergency kit. Disaster causes various degrees of effect and can make victims in need of urgent help for food, health or assistance. The application gives first aid guidelines to handle day-to-day emergencies and helps them to minimize the risk and call for help and assistance from authorities. This application is linked to the relief camps located near to them.
+ Interested people can join as volunteers ,every relief camps are connected the single application,thorough this connection we can get a proper aware of the condition of the relief-camp and coordinate them. Emergency warning system allows warnings to be given to nearby residents for early evacuation. The application is compatible with most of the smartphones with android, allowing it to be more reliable. It can thus be used to reduce impact of disasters in livelihoods of the people.
 
-[![Build Status](https://travis-ci.org/pillarpond/face-recognizer-android.svg?branch=master)](https://travis-ci.org/pillarpond/face-recognizer-android)
+(https://github.com/sanathks1998/face-recognizer-android-master/blob/master/RASINGHANDS.docx)
 
-This sample demonstrates realtime face recognition on Android. The project is based on the [FaceNet](https://arxiv.org/abs/1503.03832).
 
 ## Inspiration
 The project is heavily inspired by
@@ -10,24 +10,3 @@ The project is heavily inspired by
 * [MediaPipe](https://github.com/google/mediapipe)
 * [Android LibSVM](https://github.com/yctung/AndroidLibSVM)
 * [Tensorflow Android Camera Demo](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android)
-
-## Screenshots
-The code can recognize 5 famous people's faces.[(Source)](https://github.com/pillarpond/facerecognizer/blob/master/app/src/main/assets/label)  
-![demo1](./demo1.gif)  
-
-Also, you can add new person using photos.  
-![demo2](./demo2.gif)
-
-## Pre-trained model
-from davidsandberg's facenet
-
-| Model name      | LFW accuracy | Training dataset | Architecture |
-|-----------------|--------------|------------------|-------------|
-| [20180402-114759](https://drive.google.com/open?id=1EXPBSXwTaqrSC0OhUdXNmKSh9qJUQ55-) | 0.9965        | VGGFace2      | [Inception ResNet v1](https://github.com/davidsandberg/facenet/blob/master/src/models/inception_resnet_v1.py) |
-
-from MediaPipe
-  * [TFLite model](https://github.com/google/mediapipe/tree/master/mediapipe/models/face_detection_front.tflite)
-  * Paper: ["BlazeFace: Sub-millisecond Neural Face Detection on Mobile GPUs"](https://sites.google.com/corp/view/perception-cv4arvr/blazeface)
-
-## License
-[Apache License 2.0](./LICENSE)
