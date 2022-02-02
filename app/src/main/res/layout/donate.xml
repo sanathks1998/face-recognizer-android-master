@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="30sp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="Donate"
+
+    android:textColor="#579372"
+    android:textSize="30sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/nm"
+        android:textColor="#680232"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dress"
+        android:id="@+id/dr"
+        android:textSize="20sp"
+        android:layout_marginTop="12sp"
+        android:textColor="#680232"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Money"
+        android:layout_marginTop="12sp"
+        android:id="@+id/mn"
+        android:textColor="#680232"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Utilities"
+        android:id="@+id/ut"
+        android:layout_marginTop="12sp"
+        android:textSize="20sp"
+        android:textColor="#680232"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="22sp"
+    android:text="Collection Point"/>
+        <RadioGroup
+            android:layout_marginTop="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:id="@+id/r1"
+            android:orientation="horizontal">
+<RadioButton
+    android:layout_width="wrap_content"
+    android:textSize="20sp"
+    android:layout_height="wrap_content"
+    android:textColor="#581B38"
+    android:text="palakkad"
+    android:id="@+id/pkd"/>
+    <RadioButton
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:textColor="#581B38"
+        android:layout_height="wrap_content"
+        android:text="coimbatore"
+        android:id="@+id/cbe"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salem"
+        android:textColor="#581B38"
+        android:textSize="20sp"
+        android:id="@+id/sal"/>
+        </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donate"
+        android:layout_marginTop="12sp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#581B38"
+        android:id="@+id/dn"/>
+</LinearLayout>

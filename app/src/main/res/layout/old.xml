@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+android:layout_gravity="center_horizontal"
+    android:background="@drawable/dd1"
+    android:paddingTop="50sp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+<Button
+    android:layout_width="120sp"
+    android:layout_height="120sp"
+android:layout_marginTop="30sp"
+
+    android:layout_marginLeft="40sp"
+    android:elevation="50sp"
+    android:backgroundTint="#00B0FF"
+    android:background="#ffffff"
+
+    android:shadowColor="#C01849"
+
+
+    android:text="camera"
+    android:id="@+id/ca"
+    />
+    <Button
+        android:layout_marginTop="30sp"
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:text="mising add"
+
+        android:layout_marginLeft="40sp"
+        android:elevation="20sp"
+        android:backgroundTint="#00B0FF"
+        android:background="#ffffff"
+
+        android:shadowColor="#C01849"
+        android:id="@+id/am"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:paddingBottom= "5sp"
+        android:orientation="horizontal">
+
+    <Button
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:layout_marginLeft="40sp"
+
+        android:elevation="20sp"
+        android:backgroundTint="#00B0FF"
+        android:background="#ffffff"
+
+
+android:shadowColor="#C01849"
+        android:layout_gravity="center|center_horizontal"
+        android:text="volunteer"
+        android:layout_marginTop="10sp"
+        android:id="@+id/vol"
+        />
+    <Button
+        android:layout_width="120sp"
+        android:layout_height="120sp"
+        android:layout_gravity="center|center_horizontal"
+        android:text="refugee camp"
+        android:elevation="20sp"
+        android:backgroundTint="#00B0FF"
+        android:background="#ffffff"
+
+        android:layout_marginLeft="40sp"
+        android:shadowColor="#C01849"
+
+        android:layout_marginTop="10sp"
+        android:id="@+id/camp"
+        />
+</LinearLayout>
+    <Button
+        android:layout_width="120sp"
+        android:layout_marginTop="30sp"
+        android:layout_height="120sp"
+        android:layout_gravity="center|center_horizontal"
+        android:elevation="20sp"
+        android:backgroundTint="#00B0FF"
+        android:background="#ffffff"
+
+        android:shadowColor="#C01849"
+
+        android:text="donate"
+        android:id="@+id/don"
+        />
+</LinearLayout>

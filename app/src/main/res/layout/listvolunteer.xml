@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="7"
+    android:paddingLeft="12sp"
+    android:paddingRight="12sp"
+    android:paddingBottom="2sp"
+    android:paddingTop="10sp"
+    android:background="@drawable/dd1"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listvoc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>
